@@ -43,6 +43,7 @@ class LatticeStructure(Enum):
     BCC = auto()
     r"""
     body-centered cubic lattice structure
+    
     <img
         src="https://raw.githubusercontent.com/MUEXLY/tce-lib/refs/heads/main/assets/lattice-structures/bcc.png"
         width=40%
@@ -53,6 +54,7 @@ class LatticeStructure(Enum):
     FCC = auto()
     r"""
     face-centered cubic lattice structure
+    
     <img
         src="https://raw.githubusercontent.com/MUEXLY/tce-lib/refs/heads/main/assets/lattice-structures/fcc.png"
         width=40%
