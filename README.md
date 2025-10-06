@@ -9,6 +9,9 @@
 [![Checked with mypy](https://www.mypy-lang.org/static/mypy_badge.svg)](https://mypy-lang.org/)
 [![Tested with pytest](https://img.shields.io/badge/pytest-tested-blue?logo=pytest)](https://docs.pytest.org/en/stable/)
 
+
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/MUEXLY/tce-lib)
+
 <img src="https://raw.githubusercontent.com/MUEXLY/tce-lib/refs/heads/main/assets/logo.png" alt="tce-lib logo" style="width:50%;height:auto;">
 
 
