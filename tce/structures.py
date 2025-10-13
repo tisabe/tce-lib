@@ -7,6 +7,7 @@ from dataclasses import dataclass
 from functools import cached_property, lru_cache
 from typing import Union
 import logging
+import warnings
 
 import numpy as np
 from numpy.typing import NDArray
@@ -41,6 +42,10 @@ class Supercell:
 
     size: tuple[int, int, int]
     r"""size of the supercell, eg `size=(10, 10, 10)` generates a $10\times 10\times 10$ supercell"""
+
+    def __post_init__(self):
+
+        warnings.warn(f"{self.__class__.__name__} is deprecated", DeprecationWarning)
 
     @cached_property
     def num_sites(self) -> Union[int, np.integer]:
