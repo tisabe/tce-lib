@@ -41,7 +41,7 @@ pip install -e tce-lib/
 
 ## 📌 Citation
 
-Please cite our work [here](https://arxiv.org/abs/2509.04686) if you use `tce-lib` in your work.
+Please cite our work [here](https://www.sciencedirect.com/science/article/pii/S0927025625006810) if you use `tce-lib` in your work.
 
 ## 💙 Acknowledgements
 
