@@ -102,7 +102,7 @@ def monte_carlo(
     initial_configuration: Atoms,
     cluster_expansion: ClusterExpansion,
     num_steps: int,
-    beta: float | Sequence[float] | np.array,
+    beta: float | Sequence[float] | NDArray[np.floating],
     save_every: int = 1,
     generator: Optional[np.random.Generator] = None,
     mc_step: Optional[MCStep] = None,
